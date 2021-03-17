@@ -22,6 +22,10 @@ public class TV {
 		return numTV;//Metodo obtener numTV
 	}
 	
+	public static void setNumTV(int numTv) {
+		TV.numTV = numTv;
+	}
+	
 	public void turnOn(){ // 
 		this.estado = true;
 	}
