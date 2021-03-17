@@ -5,7 +5,7 @@ public class TV {
 	Marca marca;
 	int canal = 1;
 	int precio = 500;
-	boolean estado;
+	public boolean estado;
 	int volumen = 1;
 	Control control;
 	static int numTV ;//Atributo de clase
@@ -88,7 +88,10 @@ public class TV {
 	}
 
 	public void setCanal(int canal) {
-		this.canal = canal;
+		if(estado==true && canal<=120 && canal>=1){
+			this.canal = canal;
+		}
+		
 	}
 
 	public int getPrecio() {

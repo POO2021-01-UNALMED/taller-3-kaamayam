@@ -38,8 +38,8 @@ public class Control {
 	}
 	
 	
-	public void setCanal(int canal_my) {
-		tv.setCanal(canal_my);
+	public void setCanal(int my_canal) {
+		  tv.setCanal(my_canal);
 	}
 	
 	public void enlazar(TV un_tv) {
